@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>       
+        <link rel="stylesheet" href="style_filter.css">
+        <title>リアルタイムフィルター</title>
+    </head>
+
+    <body>
+        <h2>リアルタイムフィルター</h2>
+        <p class="description">検索したい画像のキーワードを入力してください</p>
+        <input type="text"　id="inputletter" value="">
+        <p id="inputLetterWindow"></p>
+        <div class="images">
+            <!--1.清水寺-->
+            <div class="images-item" id="kiyomizu">
+                <img src="https://tripnote.imgix.net/post/article/1739/173884-e5YrmGpXdpHPQUdaLJ5r_lrg.jpg?w=768&h=474&fit=crop&auto=format" alt="Kiyomizu-Temple">
+                <p>キーワード：</p>
+                <div id="keywords1">
+                    kyoto<br>
+                    京都<br>
+                    清水寺<br>
+                    kiyomizu
+                </div>
+            </div>
+            <!--2.USJ-->
+            <div class="images-item" id="usj">
+                <img src="https://d340eiag32bpum.cloudfront.net/img/post/article/1739/173891-WBa4NSzycJq55rsfsxzW_lrg.jpg" alt="Universal Studio Japan">
+                <p>キーワード：</p>
+                <div id="keywords2">
+                    osaka<br>
+                    大阪<br>
+                    USJ<br>
+                    ユニバ<br>
+                    Universal
+                </div>
+            </div>
+            <!--3.兼六園-->
+            <div class="images-item" id="kenroku">
+                <img src="https://d340eiag32bpum.cloudfront.net/img/post/article/1740/173903-q6f7FNFE2TE4Nhvb5UFw_lrg.jpg" alt="Kenrokuen">
+                <p>キーワード：</p>
+                <div id="keywords3">
+                    ishikawa<br>
+                    石川<br>
+                    庭園<br>
+                    兼六園<br>
+                    kenrokuen
+                </div>
+            </div>
+            <!--4.スカイツリー-->
+            <div class="images-item" id="skytree">
+                <img src="https://d340eiag32bpum.cloudfront.net/img/post/article/1739/173888-dtuzNXrhhNfqNV7wSaL9_lrg.jpg" alt="Tokyo Sky Tree">
+                <p>キーワード：</p>
+                <div id="keywords4">
+                    tokyo<br>
+                    東京<br>
+                    skytree<br>
+                    tower<br>
+                    スカイツリー
+                </div>
+            </div>
+            <!--5.TDL-->
+            <div class="images-item" id="tdl">
+                <img src="https://grapee.jp/wp-content/uploads/64648_main2.jpg" alt="Tokyo Disney Land">
+                <p>キーワード：</p>
+                <div id="keywords5">
+                    tokyo<br>
+                    東京<br>
+                    TDL<br>
+                    ディズニー<br>
+                    disney
+                </div>
+            </div>
+            <!--6.コロッセオ-->
+            <div class="images-item" id="colosseo">
+                <img src="https://storage.googleapis.com/veltra-kurios/media/zine/photo/d1a7840630f823425fe2f01318c5c869.jpg" alt="Colosseo">
+                <p>キーワード：</p>
+                <div id="keywords6">
+                    italy<br>
+                    イタリア<br>
+                    colosseo<br>
+                    コロッセオ<br>
+                    ローマ
+                </div>
+            </div>
+            <!--7.モンサンミッシェル-->
+            <div class="images-item" id="msm">
+                <img src="https://www.tabikobo.com/world_heritage/mont_saint_michel/images/main4.jpg" alt="Mont Saint Michel">
+                <p>キーワード：</p>
+                <div id="keywords7">
+                    france<br>
+                    フランス<br>
+                    モンサンミッシェル<br>
+                    mont<br>
+                    saint<br>
+                    michel<br>
+                </div>
+            </div>
+            <!--8.サグラダファミリア-->
+            <div class="images-item" id="sf">
+                <img src="https://kabegamiyahonpo.com/upload/save_image/phw/photo097/63181-m.jpg" alt="Sagrada Familia">
+                <p>キーワード：</p>
+                <div id="keywords8">
+                    spain<br>
+                    スペイン<br>
+                    サグラダファミリア<br>
+                    sagrada<br>
+                    familia<br>
+                    gaudi
+                </div>
+            </div>
+        </div>
+        <script src="script_filter.js"></script>
+    </body>
+</html>

@@ -1,0 +1,42 @@
+h2 {
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+}
+
+input {
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+}
+
+#inputLetterWindow {
+    text-align: center;
+}
+
+.images {
+    display:flex;
+    flex-wrap: wrap;
+    max-width: 1080px;
+    margin:0 auto;
+}
+
+.images-item {
+    max-width: 400px;
+    margin:30px auto 0;
+    padding:10px;
+    border: darkgrey solid 1px;
+    border-radius: 5px;
+}
+
+.images > div > img {
+    width: 100%;
+}
+
+.displayNone {
+    display:none;
+}
+
+
